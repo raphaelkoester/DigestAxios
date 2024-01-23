@@ -3,7 +3,7 @@
 ## `class DigestAxios`
 
 ```ts
-import DigestAxios from "@mhoc/axios-digest-auth";
+import DigestAxios from "digest-axios";
 ```
 
 Application-facing class which stores username/password state and executes
@@ -55,11 +55,11 @@ Executes a request. The signature of this function is identical to Axios's own
 ## `interface DigestAxiosOpts`
 
 ```ts
-import { DigestAxiosOpts } from "@mhoc/axios-digest-auth";
+import { DigestAxiosOpts } from "digest-axios";
 ```
 
 -   `axios` (`axios.Axios | undefined`): Optionally provide an axios object with
-    which requests are made. If this is not provided, `axios-digest-auth` will
+    which requests are made. If this is not provided, `digest-axios` will
     create one for you by simply using the `axios` library default export, with
     no configuration.
 
