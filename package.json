@@ -1,10 +1,10 @@
 {
 	"name": "digest-axios",
-	"description": "axios-like http digest auth",
+	"description": "axios digest auth",
 	"version": "0.0.1",
 	"homepage": "https://github.com/raphaelkoester/DigestAxios",
 	"license": "GNU GENERAL PUBLIC LICENSE",
-	"main": "./dist",
+	"main": "./dist/index.js",
 	"scripts": {
 		"build": "tsc",
 		"test": "tsc && mocha"

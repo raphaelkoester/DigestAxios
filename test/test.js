@@ -14,6 +14,7 @@ describe("AxiosDigestAuth", function() {
         headers: { Accept: "application/json" },
         method: "GET",
         url: "https://httpbin.org/digest-auth/auth/user/passwd",
+
       });
     });
   });
