@@ -1,0 +1,20 @@
+{
+	"name": "digest-axios",
+	"description": "axios-like http digest auth",
+	"version": "0.0.1",
+	"homepage": "https://github.com/mhoc/axios-digest-auth",
+	"license": "GNU GENERAL PUBLIC LICENSE",
+	"main": "./dist",
+	"scripts": {
+		"build": "tsc",
+		"test": "tsc && mocha"
+	},
+	"dependencies": {
+		"axios": "^1.6.5"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.5",
+		"mocha": "^10.2.0",
+		"typescript": "^5.3.3"
+	}
+}
