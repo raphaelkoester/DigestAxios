@@ -1,7 +1,7 @@
 {
 	"name": "digest-axios",
 	"description": "axios digest auth",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "https://github.com/raphaelkoester/DigestAxios",
 	"license": "GNU GENERAL PUBLIC LICENSE",
 	"main": "./dist/index.js",
